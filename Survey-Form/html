@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">How can we improve sustainability in designing sneakers?</h1>
+<p id="description">Thank you for taking the time to help make sneaker design sustainable</p>
+
+<form id="survey-form">
+<div class="input-element">
+  <label id="name-label">Name 
+    <input placeholder="name" id="name" type="text" required></input>
+    </label>
+    </div>
+  <div class="input-element">
+  <label id="email-label">Email 
+    <input placeholder="email" id="email" type="email" required></input>
+    </label>
+    </div>
+  <div class="input-element">
+  <label id="number-label">Age 
+    <input placeholder="number"id="number" type="number" min="13" max="120" optional></input>
+    </label>
+    </div>
+  <div class="input-element">
+  <label id="select-label"> What's your favorite sneaker brand?</label>
+  <select id="dropdown">
+    <option>Nike</option>
+    <option>Reebok</option>
+    <option>Adidas</option>
+  </select>
+  </div>
+  <div>
+<label>Do you own sneakers?</label></div>
+<div>
+   <label><input name="option" type="radio" id="option1" value="1">Yes</input></label>
+   </div>
+   <div>
+     <label><input name="option" type="radio" id="option1" value="2"></input>No</label>
+     </div>
+   <div class="input-element">
+<label> Which suggestions are good ideas for sustainable sneaker design?</label>
+</div>
+<div>
+   <label><input name="name" type="checkbox" value="recycle" >Use recycled materials</input></label>
+   </div>
+   <div>
+     <label><input name="name" type="checkbox" value="volumes" ></input>Limit production volumes</label>
+     </div>
+   <div>
+     <label><input name="name" type="checkbox" value="materials"></input>Strictly use biodegradable material</label>
+     </div>
+     <div>
+     <label><input name="name" type="checkbox" value="laws"></input>Implement strict regulatory laws</label>
+     </div>
+     <div>
+     <label><input name="name" type="checkbox" value="fine"></input>Issue fines to non-compliant brands</label>
+     </div>
+     <div class="input-element">
+       <label>Additional comments</label></div><div>
+       <textarea></textarea>
+       <button type="submit" id="submit">Submit</button>
+</form>
